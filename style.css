@@ -66,9 +66,17 @@
     flex-direction: row;
     margin: 2px;
 }
+
+.rowone {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2px;
+}
+
 .example4 {
     flex-direction: column;
 }
+
 .light{
     background-color: lightskyblue;
     min-height: 50px;
@@ -80,4 +88,56 @@
     min-height: 10px;
     min-width: 10px;
     flex: 1;
+}
+
+.example5 {
+    flex-direction: column;
+}
+
+.yellowline {
+    min-height: 70px;
+    margin: 3px;
+    background-color: yellow;
+    flex: 1;
+}
+
+.stripes {
+    display: flex;
+    flex-direction: row;
+    flex: 5;
+    justify-content: space-evenly;
+}
+
+.bar {
+    background-color: royalblue;
+    width: 20%;
+    min-height: 300px;
+    margin: 5px;
+}
+
+.example6 {
+    min-height: 350px;
+    min-width: 500px;
+    flex-direction: row;
+}
+
+.rightbox {
+    width: 50%;
+    min-height: 200px;
+    background-color: darkred;
+}
+
+.leftbox {
+    margin: 5px;
+    flex-direction: column;
+}
+
+.topblue {
+    min-height: 100px;
+    width: 50%;
+    background-color: midnightblue;
+}
+
+.bottom {
+
 }
