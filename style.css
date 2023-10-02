@@ -117,27 +117,56 @@
 
 .example6 {
     min-height: 350px;
-    min-width: 500px;
-    flex-direction: row;
 }
 
-.rightbox {
-    width: 50%;
-    min-height: 200px;
+.child1 {
+    min-width: 30%;
+    min-height: 100px;
+    flex: 1;
+    margin: 2px;
     background-color: darkred;
 }
 
-.leftbox {
-    margin: 5px;
+.child2 {
+    min-height: 100px;
+    min-width: 100px;
+    flex: 3;
+    margin: 2px;
     flex-direction: column;
 }
 
-.topblue {
+.darkblue {
     min-height: 100px;
-    width: 50%;
+    width: 100%;
+    flex: 1;
     background-color: midnightblue;
 }
 
-.bottom {
+.grandchild1 {
+    min-height: 100px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.lightblue {
+    background-color: lightblue;
+    min-height: 50px;
+    width: 100%;
+    margin: 2px;
+}
+.g-grandchild1 {
+    min-height: 50px;
+    width: 100%;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lime {
+    background-color: lightgreen;
 
+    height: 40%;
+    margin: 2px;
+    flex: 1;
 }
